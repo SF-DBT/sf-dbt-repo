@@ -1,0 +1,14 @@
+sources:
+  - name: "sf's sources"
+    database: DB_ECOMM
+    schema: ECOMM_SCH
+    tables:
+      - name: USERS
+
+models:
+ - name: "UNION_DATA"
+   config:
+    materialized: 'view'
+ - name: "sf"
+   config:
+    materialized: 'table'

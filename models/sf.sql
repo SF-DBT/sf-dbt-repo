@@ -1,1 +1,1 @@
-SELECT * FROM DB_ECOMM.ECOMM_SCH.USERS
+SELECT * FROM {{source("sf's sources","USERS")}}
